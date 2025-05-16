@@ -11,37 +11,46 @@
 
 <h2>✨ Features</h2>
 <ul>
-  <li>🔐 <strong>User Authentication:</strong> Secure login for users and administrators.</li>
-  <li>📦 <strong>Item Browsing & Requests:</strong> Users can browse and request available items.</li>
-  <li>📊 <strong>Borrowing Tracking:</strong> Track borrowed items, due dates, and return status.</li>
-  <li>🛠 <strong>Admin Dashboard:</strong> Manage borrowing requests, approvals, and inventory.</li>
-  <li>📈 <strong>Reporting:</strong> Generate logs and reports for borrowing history and item usage.</li>
+  <li>🔐 <strong>User Authentication</strong>: Login and session management for users and admins.</li>
+  <li>📦 <strong>Borrow Request System</strong>: Users can request to borrow available items.</li>
+  <li>📋 <strong>Admin Approval</strong>: Admins can approve or reject borrow requests.</li>
+  <li>📊 <strong>Borrowing History</strong>: View current and past borrowing records.</li>
+  <li>🔄 <strong>Return & Status Tracking</strong>: Monitor active, returned, canceled, and overdue items.</li>
+  <li>📂 <strong>Category & Item Management</strong>: Admins can manage categories and CRUD items.</li>
+  <li>🖼 <strong>Image Upload</strong>: Store and manage item images using Cloudinary.</li>
+  <li>📈 <strong>Report Exporting</strong>: Generate and export borrowing history reports for review and documentation.</li>
 </ul>
 
 <h2>🛠 Technology Stack</h2>
 
-<h3>🚀 Frontend</h3>
+<h3>🚀 Frontend (client)</h3>
 <ul>
-  <li><strong>React</strong> – For building a responsive user interface</li>
-  <li><strong>Tailwind CSS</strong> – For styling and layout</li>
-  <li><strong>JavaScript</strong> – For client-side logic</li>
+  <li><strong>React</strong> – JavaScript library for building user interfaces</li>
+  <li><strong>React Router DOM</strong> – For client-side routing</li>
+  <li><strong>Tailwind CSS</strong> – Utility-first CSS framework</li>
+  <li><strong>Axios</strong> – For sending HTTP requests to the backend</li>
+  <li><strong>React Icons</strong> – Icon set for UI</li>
 </ul>
 
-<h3>🔧 Backend</h3>
+<h3>🔧 Backend (server)</h3>
 <ul>
-  <li><strong>Node.js</strong> – Server-side environment</li>
-  <li><strong>Express</strong> – Web framework for handling API requests</li>
+  <li><strong>Node.js</strong> – Server-side JavaScript runtime</li>
+  <li><strong>Express.js</strong> – Web framework for creating APIs</li>
+  <li><strong>MongoDB</strong> – NoSQL database for storing application data</li>
+  <li><strong>Mongoose</strong> – MongoDB object modeling tool</li>
+  <li><strong>Cloudinary</strong> – Cloud-based image and video storage solution</li>
 </ul>
 
 <h3>💾 Database</h3>
 <ul>
-  <li><strong>MongoDB</strong> – Stores users, items, and borrowing records</li>
+  <li><strong>MongoDB</strong> – Stores user data, items, and borrow records</li>
 </ul>
 
 <h3>🧰 Tools Used</h3>
 <ul>
-  <li><strong>Postman</strong> – API testing</li>
-  <li><strong>Git</strong> – Version control</li>
-  <li><strong>GitHub</strong> – Repository hosting and collaboration</li>
-  <li><strong>VS Code</strong> – Code editor</li>
+  <li><strong>VS Code</strong> – Source code editor</li>
+  <li><strong>Git</strong> – Version control tool</li>
+  <li><strong>GitHub</strong> – Code hosting platform</li>
+  <li><strong>Postman</strong> – API development and testing</li>
+  <li><strong>Nodemon</strong> – Auto-restart tool for Node.js server during development</li>
 </ul>
